@@ -2,7 +2,7 @@
     "__version": "45D-R1",
     "name": "cockpit-zfs-manager",
     "title": "Cockpit ZFS Manager",
-    "prerelease": true,
+    "prerelease": false,
     "version": "1.3.0",
     "buildVersion": "3",
     "author": "Dawson Della Valle <ddellavalle@45drives.com>",
@@ -24,26 +24,31 @@
     "dependencies": {
         "deb": [
             "cockpit",
-            "zfs-dkms",
+            "zfs",
             "znapzend"
         ],
         "el": [
             "cockpit",
-            "zfs-dkms",
+            "zfs",
             "znapzend"
         ]
     },
     "releases": [
         {
-            "image": "centos-el7-builder",
-            "codeName": "el7",
+            "image": "ubuntu-focal-builder",
+            "codeName": "focal",
+            "type": "deb"
+        },
+        {
+            "image": "rocky-el8-builder",
+            "codeName": "el8",
             "type": "el"
         }
     ],
     "changelog": {
         "urgency": "medium",
         "version": "1.3.0",
-        "buildVersion": "1",
+        "buildVersion": "3",
         "ignore": [],
         "date": null,
         "packager": "Dawson Della Valle <ddellavalle@45drives.com>",

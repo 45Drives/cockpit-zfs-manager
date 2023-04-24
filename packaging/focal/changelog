@@ -1,0 +1,43 @@
+cockpit-zfs-manager (1.3.0-3focal) focal; urgency=medium
+
+  * Rebuild Packages.
+
+ -- Dawson Della Valle <ddellavalle@45drives.com>  Wed, 11 Aug 2021 05:56:03 -0300
+
+cockpit-zfs-manager (1.3.0-2focal) focal; urgency=medium
+
+  * Add EL8 Packaging.
+
+ -- Dawson Della Valle <ddellavalle@45drives.com>  Mon, 05 Jul 2021 05:39:27 -0300
+
+cockpit-zfs-manager (1.3.0-1focal) focal; urgency=medium
+
+  * Add znapzend Replication Task support at the dataset level.
+  * Enhance methods of managing dropdown menus.
+  * Add Dataset Permissions as a dropdown action.
+  * Change default disk selector name to prefer aliases.
+
+ -- Dawson Della Valle <ddellavalle@45drives.com>  Thu, 01 Jul 2021 10:53:10 -0300
+
+cockpit-zfs-manager (1.2.3-1focal) focal; urgency=medium
+
+  * Fixed bug where non-root sudo users caused unstability.
+  * Added debian and rpm build scripts.
+
+ -- Brett Kelly <bkelly@45drives.com>  Wed, 10 Mar 2021 13:05:56 +0000
+
+cockpit-zfs-manager (1.1.0-3focal) focal; urgency=medium
+
+  * Changed depends to cockpit-bridge.
+
+ -- Brett Kelly <bkelly@45drives.com>  Wed, 10 Feb 2021 00:35:56 +0000
+
+cockpit-zfs-manager (1.1.0-2focal) focal; urgency=medium
+
+  * Added cockpit dependancies.
+
+ -- Brett Kelly <bkelly@45drives.com>  Wed, 10 Feb 2021 00:27:15 +0000
+
+cockpit-zfs-manager (1.1.0-1focal) focal; urgency=medium
+
+  * Initial Release.

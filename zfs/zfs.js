@@ -74,7 +74,7 @@ let zfsmanager = {
         name: ""
     },
     version: "0.3.4.514",
-    vendorversion: "1.2.3",
+    vendorversion: "1.3.0",
     zfs: {
         storagepool: {
             boot: "",

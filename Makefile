@@ -6,3 +6,4 @@ install:
 
 uninstall:
 	rm -rf $(DESTDIR)/usr/share/cockpit/zfs
+	rm -rf $(DESTDIR)/etc/cockpit/zfs

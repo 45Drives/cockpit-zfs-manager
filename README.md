@@ -22,7 +22,7 @@
 Copy zfs folder to cockpit
 
 ```bash
-$ git clone https://github.com/optimans/cockpit-zfs-manager.git
+$ git clone https://github.com/45drives/cockpit-zfs-manager.git
 $ sudo cp -r cockpit-zfs-manager/zfs /usr/share/cockpit
 ```
 
