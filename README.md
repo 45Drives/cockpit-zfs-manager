@@ -31,6 +31,16 @@ $ git clone https://github.com/45drives/cockpit-zfs-manager.git
 $ sudo cp -r cockpit-zfs-manager/zfs /usr/share/cockpit
 ```
 
+Update Cockpit fonts (required for Cockpit >= 277)
+
+```bash
+$ curl https://raw.githubusercontent.com/45Drives/scripts/main/cockpit_font_fix/fix-cockpit.sh | sudo bash
+```
+
+<sub>see [this issue](https://github.com/45Drives/cockpit-zfs-manager/issues/15) for more information around the missing fonts</sub>
+
+Finally, restart cockpit to load the missing fonts
+
 #### Samba
 
 Auto generated snapshot names are created in YYYY.MM.DD-HH.MM.SS format.
